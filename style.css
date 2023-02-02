@@ -1,0 +1,61 @@
+
+body {
+  background: url('https://source.unsplash.com/random/1000x1000/?rain,haze,cold,wind,nature,sunny');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+}
+
+
+.container{
+  width: 400px;
+  margin-top: 2rem;
+  max-width: 25rem;
+  background: url('https://source.unsplash.com/random/?black');
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px #ccc;
+}
+#weatherwidget {
+  min-height: 18rem;
+  background: #fff;
+  border-radius: 5px;
+}
+.card {
+  width: 100%;
+}
+.card .card-subtitle {
+  font-size: 4rem;
+}
+.card .cel:after {
+  content: "°C";
+  position: absolute;
+  font-size: 2.5rem;
+  margin-top: 0.3rem;
+  font-weight: 400;
+}
+.card .far:after {
+  content: "°F";
+  position: absolute;
+  font-size: 2.5rem;
+  margin-top: 0.3rem;
+  font-weight: 400;
+}
+.units a {
+  color: #666;
+  text-decoration: none;
+}
+.units a.active {
+  color: #ccc;
+}
+footer{
+  background-color: #e0e7ff5e;
+  margin: 2vh 10vw 0 10vw;
+  border-radius: 203px;
+}
+footer a{
+  color: black;
+  font-weight: 900;
+}
+.about{
+  margin-top: -300px;
+}

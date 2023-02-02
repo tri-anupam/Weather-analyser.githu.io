@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$border1:1px solid red;
+$border2:1px solid green;
+$border3:1px solid blue;
+
+body{
+
+}
+a{
+    cursor: pointer;
+}
+
+.main{
+    margin: 2px 10vw 0 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0E7FF;
+    border-radius: 203px;
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        // padding: 10px;
+        li{
+            list-style: none;
+            img{
+                height: 100px;
+                margin-left: 15px;
+            }
+                padding: 0 1rem 0 1rem;
+                a{
+                    font-size: 25px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: rgb(43, 43, 43);
+                    animation: slide 1s  0.2s;
+                }
+             
+                a:hover{
+                    color: rgb(95, 95, 90);
+                }
+            }
+        }
+    
+}
+.js{
+    overflow: hidden;
+  
+}
+.ftr{
+    height: 60px;
+}
+.container{
+    margin-top: -110px;
+}
+.stateCity{
+    height: 10px;
+}
